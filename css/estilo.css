@@ -1,0 +1,219 @@
+
+.container{
+    flex-flow: row wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome{
+    display: flex;
+    background-color: #c95b0c;
+    color: white;
+    font-family: 'Grey';
+    font-size: 2em;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-nomes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: garamond;
+    font-weight: bold;
+}
+
+.ul-menu{
+    display: flex;
+    gap: 90px;
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    background-color: #fcae1e;
+    justify-content: space-around;
+    color: white;
+    font-size: 1em;
+   
+}
+
+.banner-container {
+    display: flex;
+    
+}
+
+.galery{
+    width: 400px;
+    height: 350px;
+    margin: 20px 90px 20px 300px;
+    overflow: hidden;
+   
+}
+
+.galery .fotos{
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos .img{
+    width: 19.9%;
+
+}
+
+.img-foto{
+    width: 400px;
+    height: 350px;
+}
+
+.banner-texto{
+    background-color: #eec5ae;
+    width: 400px;
+    height: 350px;
+    text-align: justify;
+    align-content: center;
+    margin: 20px 30px 10px 1px;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+.container-corpo{
+    flex-flow: row wrap;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.foto1{
+    background-image: url(/img/Deliciê.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-style: solid;
+    border-color: #fda172;
+    
+}
+
+.foto2{
+    background-image: url(/img/Deliciê.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-style: solid;
+    border-color: #fda172;
+}
+
+.foto3{
+    background-image: url(/img/Deliciê.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-style: solid;
+    border-color: #fda172;
+}
+
+.janelinha1{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    left: 50px;
+    top: -30px;
+    font-family: Luminary;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #fda172;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+
+}
+
+.janelinha2{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    left: 50px;
+    top: -30px;
+    font-family: Luminary;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #fda172;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.janelinha3{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    left: 50px;
+    top: -30px;
+    font-family: Luminary;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #fda172;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.container-rodape{
+    background-color: rgb(92, 82, 69);
+    color: white;
+    width: 100%;
+    border-style: solid;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+
+footer{
+    background-color: #7a3803;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+.ul-rodape{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    font-size: 21px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#negrito{
+    font-weight: bold;
+}
+
+@keyframes animacao{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    25% {margin-left: -101%;}
+    45% {margin-left: -101%;}
+    50% {margin-left: -201%;}
+    70% {margin-left: -201%;}
+    75% {margin-left: -301%;}
+    95% {margin-left: -301%;}
+    100% {margin-left: -401%;}
+}
